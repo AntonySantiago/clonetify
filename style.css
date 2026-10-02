@@ -64,7 +64,11 @@ body {
     width: 100%;
     height: 100%;
     z-index: 10;
-    background: rgba(10, 7, 6, 0.97);
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("icones/Contratorpedeiro\ ao\ pôr\ do\ sol\ ardente.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 
     display: flex;
     justify-content: center;
@@ -73,7 +77,8 @@ body {
 
 #caixa {
     background: #17100e;
-    width: 350px;
+    width: 380px;
+    height: 320px;
     padding: 35px;
     border-radius: 15px;
     border: 1px solid #632619;
@@ -279,4 +284,31 @@ body {
 
 .player audio {
     margin-left: auto;
+}
+
+#div2 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.artistadiv {
+    width: 130px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.artistadiv img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.artistadiv p {
+    margin-top: 8px;
+    color: white;
+}
+#voltartologin {
+    display: none;
 }
